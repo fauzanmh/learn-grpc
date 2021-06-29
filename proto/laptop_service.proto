@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option go_package = "learn-gpc/pb";
 
-import "laptop_message.proto";
+import "proto/laptop_message.proto";
 
 message CreateLaptopRequest {
     Laptop laptop = 1;
