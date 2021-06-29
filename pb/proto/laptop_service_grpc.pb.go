@@ -97,5 +97,5 @@ var LaptopService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "laptop_service.proto",
+	Metadata: "proto/laptop_service.proto",
 }

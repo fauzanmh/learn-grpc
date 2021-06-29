@@ -2,11 +2,11 @@ syntax = "proto3";
 
 option go_package = "learn-gpc/pb";
 
-import "processor_message.proto";
-import "memory_message.proto";
-import "storage_message.proto";
-import "screen_message.proto";
-import "keyboard_message.proto";
+import "proto/processor_message.proto";
+import "proto/memory_message.proto";
+import "proto/storage_message.proto";
+import "proto/screen_message.proto";
+import "proto/keyboard_message.proto";
 import "google/protobuf/timestamp.proto";
 
 message Laptop {
